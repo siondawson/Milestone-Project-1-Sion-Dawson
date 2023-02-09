@@ -1,0 +1,22 @@
+/* -----------------------------------------Navbar */
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #6a6ec2;
+
+}
+
+.navbar-brand {
+    font-size: 200%;
+}
+
