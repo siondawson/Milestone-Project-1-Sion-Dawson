@@ -20,6 +20,15 @@
     font-size: 200%;
 }
 
+/* -----------------------------------------Home Page Content*/
+
+
+.main-content {
+    position: absolute;
+    top: 75px;
+}
+/* pushes content below navbar */
+
 /* -----------------------------------------footer*/
 
 .footer-look {
@@ -45,10 +54,15 @@
 }
 
 #footer-socials li {
-    float: right;
+    padding-left: 0px;
     
 }
 
 #footer-socials li a {
     color: black;
+    font-size: 200%;
+}
+
+.justify-content-center {
+    padding: 0;
 }
