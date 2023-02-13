@@ -29,6 +29,20 @@
 }
 /* pushes content below navbar */
 
+
+
+#video-container {
+    padding: 0;
+    margin: 0;
+}
+
+#cover-video {
+    width: 100%;
+    height: auto;
+  }
+
+
+  
 /* -----------------------------------------footer*/
 
 .footer-look {
