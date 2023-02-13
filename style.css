@@ -20,3 +20,35 @@
     font-size: 200%;
 }
 
+/* -----------------------------------------footer*/
+
+.footer-look {
+    background-color: #6a6ec2;
+}
+
+#footer-nav {
+    list-style-type: none;
+}
+
+#footer-nav li {
+    float: left;
+}
+
+#footer-nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer-socials {
+    list-style-type: none;
+    
+}
+
+#footer-socials li {
+    float: right;
+    
+}
+
+#footer-socials li a {
+    color: black;
+}
