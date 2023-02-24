@@ -8,6 +8,24 @@ p {
     font-family: 'Commissioner', sans-serif;
 }
 
+/* -----------------------------------------Colors */
+
+.navbar {
+    background-color: #faf9f6;
+}
+
+.background-green {
+    background-color: #b0b5a5;
+}
+
+.background-blue {
+    background-color: #8296ba;
+}
+
+.footer-look {
+    background-color: #faf9f6;
+}
+
 /* -----------------------------------------Navbar */
 
 .nav-container {
@@ -22,8 +40,7 @@ p {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #6a6ec2;
-
+    background-color: #fafafa;
 }
 
 .navbar-brand {
@@ -108,9 +125,7 @@ p {
   
 /* -----------------------------------------footer*/
 
-.footer-look {
-    background-color: #6a6ec2;
-}
+
 
 #footer-nav {
     list-style-type: none;
