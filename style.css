@@ -26,6 +26,13 @@ p {
     background-color: #faf9f6;
 }
 
+/* -----------------------------------------buttons */
+
+.btn-success {
+    background-color: #BAA682;
+    background-color:hover ;
+}
+
 /* -----------------------------------------Navbar */
 
 .nav-container {
