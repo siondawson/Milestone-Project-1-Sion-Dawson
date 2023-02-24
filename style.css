@@ -1,3 +1,13 @@
+/* -----------------------------------------Fonts */
+
+h1, h2, h3 {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+p {
+    font-family: 'Commissioner', sans-serif;
+}
+
 /* -----------------------------------------Navbar */
 
 .nav-container {
@@ -20,6 +30,15 @@
     font-size: 200%;
 }
 
+.navbar-brand {
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-family: 'Commissioner', sans-serif;
+}
+
 /* -----------------------------------------Home Page Content*/
 
 
@@ -28,6 +47,14 @@
     top: 75px;
 }
 /* pushes content below navbar */
+
+.title-section h1 {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.title-section p {
+    font-family: 'Commissioner', sans-serif;
+}
 
 
 
@@ -59,6 +86,7 @@
 
 .reasons-section {
     padding-bottom: 100px;
+
 }
 
 .why-hire-me {
@@ -66,7 +94,7 @@
 }
 
 .hire-reasons {
-    /* padding-bottom: 100px; */
+   
 }
 
 .button-home-bottom {
