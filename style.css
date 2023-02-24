@@ -51,10 +51,28 @@
 
 .video-caption {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+.reasons-section {
+    padding-bottom: 100px;
+}
+
+.why-hire-me {
+    padding: 50px;
+}
+
+.hire-reasons {
+    padding-bottom: 100px;
+}
+
+.button-home-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
