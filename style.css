@@ -66,13 +66,14 @@
 }
 
 .hire-reasons {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 .button-home-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px
 }
 
 
