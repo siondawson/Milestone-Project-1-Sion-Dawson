@@ -158,6 +158,12 @@ body {
     margin-bottom: 50px;
 }
 
+.video-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #music-videos-section {
     padding-bottom: 100px;
 }
