@@ -27,13 +27,13 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="wedding_films.html">Wedding Films</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
                     </li>
                     </ul>
                 </div>
@@ -42,52 +42,64 @@
             </nav>
         </div>
     </header>
-
+    
     <section>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col">
-                    <img src="../assets/video/images/img_placeholder.jpeg" alt="photo of sion with camera" id="about-image">
-                    <h1 class="text-center p-3">
-                        About Me
+                <div class="col text-center">
+                    <h1>
+                        Get In Touch
                     </h1>
-                    <p class="text-center p-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                        Fill out the form below for a free, no obligation quote. I aim to respond to all enquries on the day. If you don't recieve a reply please check your junk. Alternatively you can call me direct on 07792 091467.
                     </p>
                 </div>
-            </div>
+            </div>  
         </div>
     </section>
-    <section>
-        <div class="container-fluid music-videos-section">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-center">
-                        Music Videos
-                    </h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <p class="text-center">
-                        Video of Perfect for solo cello
-                    </p>
-                    <iframe src="https://www.youtube.com/embed/31SbCU_xVh4" frameborder="0" class="video-center"></iframe>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="col button-home-bottom">
-                        <button type="button" class="btn btn-success">Make Enquiry</button>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <p class="text-center">
-                        One of a series of videos I made for Avon Strings. Recorded live.
-                    </p>
-                    <iframe src="https://www.youtube.com/embed/nDAvKHFWtBw" frameborder="0" class="video-center"></iframe>
-                </div>
-            </div>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your name">
         </div>
-    </section>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Tell me about your wedding..."></textarea>
+        </div>
+        <fieldset class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Where did you hear about me?</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Google Search" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        Google Search
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Reccomendation">
+                    <label class="form-check-label" for="gridRadios2">
+                        Reccomendation
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="Other">
+                    <label class="form-check-label" for="gridRadios3">
+                        Other
+                    </label>
+                </div>
+            </div>
+            </div>
+      </fieldset>
+      <div class="form-group">
+            
+            <input type="submit" class="form-control" id="submit">
+      </div>
+    </form>
     
 
     <footer class="fixed-bottom footer-look">
