@@ -76,12 +76,22 @@ p {
     background: url("assets/images/heart-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 6;
+    
 }
 
-#home-bg-img {
-    background-color: rgba(0, 0, 0, 0.25);
-    position: relative;
+.home-bg-img::before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: block;
+    background-color: rgba(0,0,0,.5);
+}
+
+.home-bg-img h1 {
+    color: #fafafa;
     z-index: 1;
 }
 
