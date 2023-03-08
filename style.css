@@ -5,11 +5,8 @@ html {
 }
 
 body {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     padding-bottom: 150px;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
 }
 /* -----------------------------------------Fonts */
 
@@ -57,7 +54,7 @@ p {
 /* -----------------------------------------Navbar */
 
 .nav-container {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     padding-left: 0;
