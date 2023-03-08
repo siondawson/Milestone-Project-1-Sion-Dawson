@@ -1,6 +1,15 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
 body {
     padding-top: 100px;
-    padding-bottom: 150px
+    padding-bottom: 150px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 /* -----------------------------------------Fonts */
 
@@ -86,7 +95,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    overflow-x: hidden;
     position: relative;
 
 }
@@ -175,21 +184,22 @@ p {
 }
 
 .why-hire-me {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hire-reasons {
    
 }
 
-.button-home-bottom {
+/* .button-home-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} */
 
 /* -----------------------------------------about page*/
 
