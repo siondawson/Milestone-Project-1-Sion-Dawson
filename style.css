@@ -77,7 +77,7 @@ p {
 /* -----------------------------------------Home Page Content*/
 .intro-container {
     height: 80vh;
-    background: url("assets/images/heart-img.jpg") no-repeat bottom right fixed; 
+    background: url("assets/images/heart-img.jpg") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
