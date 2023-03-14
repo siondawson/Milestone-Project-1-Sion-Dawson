@@ -114,6 +114,18 @@ p {
     z-index: 2;
 }
 
+.reason-img {
+    border-radius: 50%;
+   
+}
+
+.img-outer {
+    border: 2px solid #3a3a3a;
+    background-color: #6399c9;
+    border-radius: 50%;
+    padding: 10px;
+}
+
 
 /* -----------------------------------------Jumbotron*/
 
@@ -217,6 +229,10 @@ p {
 
 #music-videos-section {
     padding-bottom: 100px;
+}
+
+.music-video-caption {
+    height: 150px;
 }
 
 /* -----------------------------------------weddingn films page*/
