@@ -257,7 +257,7 @@ p {
 
 .form-section {
     height: 80vh;
-    background: url("assets/images/contact-bg-2.jpg") no-repeat right fixed; 
+    background: url("assets/images/contact-bg-2.jpg") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -321,6 +321,22 @@ p {
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: #fafafa;
   }
+
+  .msg-send-btn {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 22px 10px 22px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #b0b5a5;
+    color: #000000;
+    display: block;
+  }
+
+  .msg-send-btn:hover {
+    background-color: #8296ba;
+    color: #000000;
+}
 /* -----------------------------------------footer*/
 
 
