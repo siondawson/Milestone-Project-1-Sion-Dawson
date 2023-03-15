@@ -116,6 +116,9 @@ p {
 
 .reason-img {
     border-radius: 50%;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
    
 }
 
