@@ -253,6 +253,8 @@ p {
   
 /* -----------------------------------------contact*/
 
+/* contact form background image and layout based on Love Running project design. I found bootstrap form to be limiting in design options. */
+
 .form-section {
     height: 80vh;
     background: url("assets/images/contact-bg-2.jpg") no-repeat right fixed; 
@@ -273,7 +275,7 @@ p {
     margin-top: 150px;
     color: #fff;
     background-color: rgba(60,60,60,0.6);
-    max-width: 400px;
+    max-width: 440px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -293,6 +295,8 @@ p {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .text-input-msg {
@@ -300,6 +304,8 @@ p {
     color: #fafafa;
     width: 100%;
     margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
     
 }
 /* placeholder css from https://www.w3schools.com/howto/howto_css_placeholder.asp */
