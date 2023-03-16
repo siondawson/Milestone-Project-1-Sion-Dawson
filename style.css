@@ -259,7 +259,7 @@ p {
 
 .form-section {
     height: 80vh;
-    background: url("assets/images/contact-bg-2.jpg") no-repeat center fixed; 
+    background: url("assets/images/wedding-bouton-2.jpg") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -281,6 +281,20 @@ p {
     position: absolute;
     left: 10%;
     padding: 30px;
+}
+
+@media screen and (max-width:414px) {
+    
+    .contact-form {
+        margin-top: 300px;
+        color: #fff;
+        background-color: rgba(60,60,60,0.6);
+        max-width: 440px;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        padding: 30px;
+    }
 }
 
 .contact-form h1 {
