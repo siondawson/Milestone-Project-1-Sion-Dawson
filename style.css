@@ -119,8 +119,10 @@ p {
     display: inline-block;
     height: 300px;
     width: 300px;
+    object-fit: cover;
    
 }
+
 
 .img-outer {
     border: 2px solid #3a3a3a;
@@ -238,7 +240,7 @@ p {
     height: 150px;
 }
 
-/* -----------------------------------------weddingn films page*/
+/* -----------------------------------------wedding films page*/
 
 
 /* .weddings-intro h1 {
