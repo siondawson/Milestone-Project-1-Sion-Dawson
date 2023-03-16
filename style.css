@@ -283,7 +283,7 @@ p {
     padding: 30px;
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:414px) {   /* centers contact form div on small screens only */
     
     .contact-form {
         margin-top: 300px;
@@ -295,6 +295,10 @@ p {
         right: 5%;
         padding: 30px;
     }
+}
+
+.contact-radio {
+    display: block;
 }
 
 .contact-form h1 {
