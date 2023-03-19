@@ -26,11 +26,11 @@ p {
 }
 
 .background-green {
-    background-color: #487544;
+    background-color: #83a080;
 }
 
 .background-blue {
-    background-color: #5080da;
+    background-color: #12387f;
     color: #fafafa;
 }
 
@@ -100,7 +100,27 @@ p {
     overflow-x: hidden;
     position: relative;
 
+    animation-name: intro-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
 }
+
+#intro-outer {
+    height: 80vh;
+    overflow: hidden;
+}
+
+@keyframes intro-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
 
 .video-container {
    
