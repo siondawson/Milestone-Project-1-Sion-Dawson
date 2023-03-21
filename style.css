@@ -50,7 +50,8 @@ p {
 .btn-success {
     background-color: #7698b3;
     color: fafafa;
-    border-color: black;
+    border: none;
+    
     
 }
 
@@ -62,6 +63,7 @@ p {
 .btn-primary {
     background-color: #FEEAFA;
     color: #000000;
+    border: none;
     border-color: black;
     
 }
@@ -263,6 +265,18 @@ p {
     margin-bottom: 50px;
 }
 
+.about-section a #quartet-link {
+    text-decoration: underline;
+    color: fafafa;
+    
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+    color: #fafafa;
+    
+}
+
 .video-center {
     display: block;
     margin-left: auto;
@@ -276,6 +290,8 @@ p {
 .music-video-caption {
     height: 150px;
 }
+
+
 
 /* -----------------------------------------wedding films page*/
 
@@ -396,9 +412,7 @@ p {
     color: #000000;
 }
 
-/* .thankyou-container {
-    height: 100vh; */
-/* } */
+
 /* -----------------------------------------footer*/
 
 
