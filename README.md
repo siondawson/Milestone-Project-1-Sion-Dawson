@@ -67,9 +67,30 @@ As this website is for promotion of a wedding film business stills from previous
 
 ## Wireframes
 
-Wireframes can be found here
+Wireframes can be found here ADD LINK
 
 ## Differences to design 
+
+In order to show how the projects design evolved from wireframe to implementation I have included original wireframes and will explain differences below.
+
+### Home Page 
+
+* Background image set over main H1 title and paragraph. Height set to 90% leaving small amount of content below to lead user to next section. 
+* Background video and three reasons sections exchanged position. This layout seemed beter.
+* Three reasons section seemed bare. Images added next to each reason to increase visual appeal.
+* Customer quote replaced with centered heading. 
+
+### About Page
+
+* Extra video added and button moved underneath
+
+### Contact Page
+
+* I found bootstraps contact forms difficult to work with in terms of layout and formatting. 
+* Centered form layout replaced with similar layout to signup form in 'Love Running' project. Modified to suit needs of my project as a contact form. Entirely custom layout with exception of bootstrap columns. 
+
+
+
 
 
 
