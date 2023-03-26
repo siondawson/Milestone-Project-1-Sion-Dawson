@@ -65,21 +65,34 @@ Two fonts were chosen via google fonts. 'Nothing You Could Do' for headings. 'Co
 
 As this website is for promotion of a wedding film business stills from previous work will be used. All images displayed on the site are of my own creation, with the exeception of the home page background image which is used under the free pixabay licence. 
 
+## Wireframes
+
+Wireframes can be found here
+
+## Differences to design 
+
+
+
+
 
 # Technologies
 
 * HTML
-HTML was used to complete the structure of the website
+    * HTML was used to complete the structure of the website
 * CSS
-CSS was used to style the website
+    * CSS was used to style the website
 * Bootstrap 5
-Bootstrap 5 was used as a frame work to structure and style the website.
+    * Bootstrap 5 was used as a frame work to structure and style the website.
 * Fontawesome 
-Fontawesome icons were used as visual aids in headings and for social media links. 
+    * Fontawesome icons were used as visual aids in headings and for social media links. 
 * Google fonts
-Used throughout the website to import the fonts used.
+    * Used throughout the website to import the fonts used.
 * [Adobe Color] (https://color.adobe.com/create/color-wheel)
-Used to explore color palette
+    * Used to explore color palette
+* TinyJPG.com
+    * Used to compress images in order to reduce bandwidth.
+* Favicon
+    * favicon.io was used to create site favicon.
 
 
 # Testing 
@@ -100,6 +113,8 @@ Test results can be found here ADD LINK.
 This is an .xlsx file and will require excel or compatible program to view. 
 
 All pages were run through the W3C HTML Validator and showed no errors.
+
+CSS code was run through the W3C CSS validator with no errors found.
 
 
 ### First time user stories:
