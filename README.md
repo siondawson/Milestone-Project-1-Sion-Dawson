@@ -12,7 +12,7 @@ The Siôn Dawson Films website was built as an online presence for my new weddin
 
 ## User Stories.
 
-### First Time Visitor Goals
+### First Time Visitor Stories
 #### As a first time user, I want:
 1. To be able to easily understand the purpose of the site and learn more about the site's subject. 
 2. To be to easily navigate and view the content.
@@ -20,14 +20,13 @@ The Siôn Dawson Films website was built as an online presence for my new weddin
 4. To be able to find links to social media 
 5. To be able to send an a message to obtain a quote for videography services.
 
-### Returning Visitor Goals
+### Returning Visitor Stories
 #### As a returning visitor, I want:
 1. To quicky navigate to information about the available service.
-2. To view the example videos on the site.
 3. To send a message requesting a quote for the advertised service.
 4. To find contact information to contact the sites owner directly (without the use of the contact form)
 
-### Frequent Visitor Goals
+### Frequent Visitor Stories
 #### As a frequent visitor, I want:
 1. To see if there is any new example videos uploaded.
 2. Go get in contact with the sites owner after booking if I have not saved their contact information.
@@ -83,6 +82,47 @@ Used throughout the website to import the fonts used.
 Used to explore color palette
 
 
+# Testing 
 
+## Test Strategy
 
+This project is a static website and contains no back-end functionality. Testing will be performed on the websites visual layout and navigation functionality. 
+
+All nav links should function as per their names. All buttons should function as per their name implies.
+
+All links will open in a new browser.
+
+The contact form will be tested to ensure required fields are completed and to ensure valid data is input.
+
+## Test Results
+
+Test results can be found here ADD LINK. 
+This is an .xlsx file and will require excel or compatible program to view. 
+
+### First time user stories:
+1. To be able to easily understand the purpose of the site and learn more about the site's subject. 
+    * Testing was performed to ensure all contact was displayed correctly on all screen sizes, accross all pages 
+2. To be to easily navigate and view the content.
+    * Testing was performed on all nav links and buttons to ensure they function as expected. 
+3. To be able to view the site on any device
+    * Testing was performed accross three browsers at screen sizes between 300px-3000px.
+4. To be able to find links to social media 
+    * Testing was performed to ensure social media links would open correctly. 
+5. To be able to send an a message to obtain a quote for videography services.
+    * Testing was performed to ensure contact form functioned correctly. Note: at this stage contact form is not linked to a server as it's out of scope for milestone project 1.
+
+### Returning user stories:
+1. To quicky navigate to information about the available service.
+    * Testing was performed on all nav links.
+3. To send a message requesting a quote for the advertised service.
+    * Testing was performed to ensure contact form functions correctly.
+4. To find contact information to contact the sites owner directly (without the use of the contact form)
+    * Testing was performed to ensure content and information is displayed correctly accross all device sizes.
+
+### Frequent user stories:
+
+1. To see if there is any new example videos uploaded.
+    * Testing was perfromed to ensure videos play correctly and user controls are present.
+2. Go get in contact with the sites owner after booking if I have not saved their contact information.
+    * Testing was performed to ensure all information and content is displayed correctly accross all device sizes.
 
