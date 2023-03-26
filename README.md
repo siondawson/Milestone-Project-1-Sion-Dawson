@@ -99,6 +99,9 @@ The contact form will be tested to ensure required fields are completed and to e
 Test results can be found here ADD LINK. 
 This is an .xlsx file and will require excel or compatible program to view. 
 
+All pages were run through the W3C HTML Validator and showed no errors.
+
+
 ### First time user stories:
 1. To be able to easily understand the purpose of the site and learn more about the site's subject. 
     * Testing was performed to ensure all contact was displayed correctly on all screen sizes, accross all pages 
