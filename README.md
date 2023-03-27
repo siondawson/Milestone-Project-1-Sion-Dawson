@@ -118,6 +118,8 @@ In order to show how the projects design evolved from wireframe to implementatio
     * favicon.io was used to create site favicon.
 * [Techsini](https://techsini.com/)
     * Used to create apple device mockup above in this readme.
+* [Pixabay](https://pixabay.com/)
+    * Used to download [heart image that is used on the home page](https://pixabay.com/photos/heart-wedding-marriage-hands-529607/)
 
 
 # Testing 
