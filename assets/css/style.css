@@ -135,25 +135,6 @@ p {
 
 }
 
-.video-container {
-   
-}
-
-
-
-
-
-
-/* .opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-} */
-
 .reason-img {
     border-radius: 50%;
     display: inline-block;
@@ -163,13 +144,6 @@ p {
    
 }
 
-
-/* .img-outer {
-    border: 2px solid #3a3a3a;
-    background-color: #6399c9;
-    border-radius: 50%;
-    padding: 10px;
-} */
 
 
 /* -----------------------------------------Jumbotron*/
@@ -292,27 +266,12 @@ p {
     height: 150px;
 }
 
-
-
-/* -----------------------------------------wedding films page*/
-
-
-/* .weddings-intro h1 {
-    padding-top: 50px;
-    /* padding-bottom: 50px; */
-/* } */
-
-/* .weddings-intro iframe {
-    padding-top: 20px;
-} */
-
-  
 /* -----------------------------------------contact*/
 
 /* contact form background image and layout based on Love Running project design. I found bootstrap form to be limiting in design options. */
 
 .form-section {
-    height: 80vh;
+    height: 100vh;
     background: url("../images/wedding-bouton-2.jpg") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
