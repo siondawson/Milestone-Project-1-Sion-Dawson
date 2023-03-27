@@ -176,3 +176,4 @@ CSS code was run through the W3C CSS validator with no errors found.
 2. Background image on index.html appears zoomed in too far on tablets and mobile. Only when ran on real devices.
 3. Background video on index.html does not play on real mobile devices. Only first frame is displayed. 
 4. Contact form taller than background image and therefore scrolls. Gives an appearance of a sticky footer. Not effecting functionality or UX but could be improved.
+5. Favicon not displaying on deployed site.
