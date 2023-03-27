@@ -87,7 +87,13 @@ In order to show how the projects design evolved from wireframe to implementatio
 ### Contact Page
 
 * I found bootstraps contact forms difficult to work with in terms of layout and formatting. 
-* Centered form layout replaced with similar layout to signup form in 'Love Running' project. Modified to suit needs of my project as a contact form. Entirely custom layout with exception of bootstrap columns. 
+* Centered form layout was replaced with similar layout to signup form in 'Love Running' project. Modified to suit needs of my project as a contact form. Entirely custom layout with exception of bootstrap columns. Ideal background image was allready loaded into gitpod.
+
+### Thankyou page
+
+* In project midpoint meeting my tutor pointed out that the user has no way of knowing if a message has been sent from contact form. She suggested adding a simple thank-you page linked from the 'send message' button of the contact form. 
+* A simple message with a button to return to the home page is all that was required.
+* No wireframe was created for this aspect during the skeleton plane. Page was simple enough to not require one. 
 
 
 
