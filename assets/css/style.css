@@ -271,7 +271,7 @@ p {
 /* contact form background image and layout based on Love Running project design. I found bootstrap form to be limiting in design options. */
 
 .form-section {
-    height: 100vh;
+    height: 80vh;
     background: url("../images/wedding-bouton-2.jpg") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
