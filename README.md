@@ -134,8 +134,8 @@ The contact form will be tested to ensure required fields are completed and to e
 ![testing](assets/screenshots/testing-screenshot.png)
 ## Test Results
 
-Test results can be found [here](assets/testing-sion-dawson-films.pdf) 
-This is an .xlsx file and will require excel or compatible program to view. 
+Full test results can be found [here](https://github.com/siondawson/Milestone-Project-1-Sion-Dawson/blob/main/assets/testing-sion-dawson-films.pdf). 
+I have provided a .pdf and .xlsx copies of the spreadsheet. The .xlsx will require excel or compatible program to open. Please note that in exporting from Apple Numbers the bullet point formatting was automatically removed.
 
 All pages were run through the W3C HTML Validator and showed no errors.
 
