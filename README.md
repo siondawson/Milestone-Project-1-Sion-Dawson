@@ -43,9 +43,9 @@ After scrolling down the user will be given three reasons why I would make a goo
 
 After the three reasons there will be a short video playing in the background. The video will have no sound as will be built into the site as a 'moving background'. As the purpose of the site is to encourage potential clients to enquire about hiring me as their wedding videographer - this is an important feature. The video will have a heading element empashising the quality of the films. 
 
-As the main purpose of the site is to encourage additional navigation buttons will be placed strategically to lead visitors from the 'home' to 'about' to 'wedding films' and finally the 'contact' page. 
+As the main purpose of the site is to advertise my services as a videographer additional navigation buttons will be placed strategically to lead visitors from the 'home' to 'about' to 'wedding films' and finally the 'contact' page. Additional navigation buttons will also be placed to prompt user to proceed to the contact page and send an enquiry as soon as possible.
 
-The about section will contain an image of me along with a short bio. Underneath this there will be three msuic videos of my own creation, highlighting my background in music whilst also assuring the user of my experience in film making. Each video will have a short explanation of it's content. 
+The about section will contain an image of me along with a short bio. Underneath this there will be three music videos of my own creation, highlighting my background in music whilst also assuring the user of my experience in film making. Each video will have a short explanation of it's content. 
 
 The wedding films page will contain more in depth information about my wedding films. The two main elements at the top of the page will be a iframe containing an example of one of my wedding films for visitors to view, along with a short paragraph. Underneath this there will be six headings with corresponding paragraph showing visitors what they will recieve by booking me as their videographer. Each heading will be supported by an appropriate fontawesome icon. After the six headings, users will see a button calling them to make an enquiry. This will lead them to the contact page.
 
@@ -73,14 +73,14 @@ As this website is for promotion of a wedding film business stills from previous
 
 ## Differences to design 
 
-In order to show how the projects design evolved from wireframe to implementation I have included original wireframes and will explain differences below.
+In order to show how the projects design evolved from wireframe to implementation I have included original wireframes and will explain differences below. Surface plane design changes choices we're made based on what looked/ worked best in practice vs. in  planning at the skeleton plane.
 
 ### Home Page 
 
 * Background image set over main H1 title and paragraph. Height set to 90% leaving small amount of content below to lead user to next section. 
-* Background video and three reasons sections exchanged position. This layout seemed beter.
-* Three reasons section seemed bare. Images added next to each reason to increase visual appeal.
-* Customer quote replaced with centered heading. 
+* Background video and three reasons sections exchanged position. This layout seemed better than wireframe plan. 
+* Three reasons section seemed bare. Images added next to each reason to increase visual appeal. Bootstrap ordering classes were used to best format text and images on different screen sizes. 
+* Customer quote replaced with centered heading emphasizing that videos are shot in 4k.
 
 ### About Page
 
@@ -177,3 +177,29 @@ CSS code was run through the W3C CSS validator with no errors found.
 3. Background video on index.html does not play on real mobile devices. Only first frame is displayed. 
 4. Contact form taller than background image and therefore scrolls. Gives an appearance of a sticky footer. Not effecting functionality or UX but could be improved.
 5. Favicon not displaying on deployed site.
+
+# Deployment 
+
+This project was created using the code institute template.
+
+To save future work on this project: 
+
+1. Open the command line terminal.
+2. Type: git add .
+    * This command add files to the staging area before committing.
+3. Type: git commit -m "your message explaining what updates were made"
+    * This command commits changes to the local repository
+4. Type: git push
+    * This command pushes all changes to the GitHub repository.
+
+# Credits 
+
+## Content
+The content of this software was created by Sion Dawson.
+
+## Media 
+The photos and video in this project were created by Sion Dawson. The only exception is the home page 'heart-img.jpg.' which was downloaded for free, for use anywhere from [pixabay.com](https://pixabay.com/photos/heart-wedding-marriage-hands-529607/).
+
+## Acknowledgements
+Thankyou to my tutor Daisy McGirr for her help and guidance in this project. Thanks also to my wife Samantha (code institute alumni) for helping me overcome problems and discussing ideas.
+
