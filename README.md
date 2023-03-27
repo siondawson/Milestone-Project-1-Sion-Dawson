@@ -2,7 +2,7 @@
 ## Purpose 
 This webite was created for Code Institute's Milestone Project 1 assignment. It will also be published and used as online presence for my wedding film business. It was built using knowledge and techniques learsed so far on the Full Stack Developer course. A full list of technologies can be found in the technologies section of this document.
 
-The live website can be found here. ADD LINK
+The live website can be found [here](https://siondawson.github.io/Milestone-Project-1-Sion-Dawson/)
 
 ## Siôn Dawson Films Responsive Website
 
@@ -131,7 +131,7 @@ All nav links should function as per their names. All buttons should function as
 All links will open in a new browser.
 
 The contact form will be tested to ensure required fields are completed and to ensure valid data is input.
-
+![testing](assets/screenshots/testing-screenshot.png)
 ## Test Results
 
 Test results can be found here ADD LINK. 
