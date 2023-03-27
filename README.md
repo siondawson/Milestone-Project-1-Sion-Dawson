@@ -2,9 +2,11 @@
 ## Purpose 
 This webite was created for Code Institute's Milestone Project 1 assignment. It will also be published and used as online presence for my wedding film business. It was built using knowledge and techniques learsed so far on the Full Stack Developer course. A full list of technologies can be found in the technologies section of this document.
 
-The live website can be found here.
+The live website can be found here. ADD LINK
 
 ## Siôn Dawson Films Responsive Website
+
+![Website Mockup](assets/screenshots/Mockup-Apple-Sion-Dawson-Films.png)
 
 The Siôn Dawson Films website was built as an online presence for my new wedding films business. In order to showcase my work and connect with potential clients I needed a fully responsive website that could adverstise my services as a wedding videographer. As my background is in music, it was neccacary to include examples of my previous video work to support my image as a good choice for potential clients.
 
@@ -55,7 +57,7 @@ After visitors send an enquiry they will be directed to a 'thank-you' page where
 
 ### Color Scheme
 
-Two colors where chosen after trialling many different shades. Research into different color schemes was a carried out on various websites incluing adobe color picker. The built in HEX color picker in gitpod was used finalise the shades of blue (#7698b3) and pink (#FEEAFA). 
+Two colors where chosen after trialling many different shades. Research into different color schemes was a carried out on various websites incluing adobe color picker. The built in HEX color picker in gitpod was used finalise the background shades of blue (#7698b3) and green (#e0e4e1). 
 
 ### Typography
 
@@ -67,7 +69,7 @@ As this website is for promotion of a wedding film business stills from previous
 
 ## Wireframes
 
-Wireframes can be found here ADD LINK
+[Wireframes can be found here](https://github.com/siondawson/Milestone-Project-1-Sion-Dawson/tree/main/assets/wireframes)
 
 ## Differences to design 
 
@@ -82,7 +84,8 @@ In order to show how the projects design evolved from wireframe to implementatio
 
 ### About Page
 
-* Extra video added and button moved underneath
+* Extra video added and button moved underneath.
+* Video caption text moved below videos instead of above.
 
 ### Contact Page
 
@@ -95,31 +98,26 @@ In order to show how the projects design evolved from wireframe to implementatio
 * A simple message with a button to return to the home page is all that was required.
 * No wireframe was created for this aspect during the skeleton plane. Page was simple enough to not require one. 
 
-
-
-
-
-
-
-
 # Technologies
 
 * HTML
     * HTML was used to complete the structure of the website
 * CSS
     * CSS was used to style the website
-* Bootstrap 5
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     * Bootstrap 5 was used as a frame work to structure and style the website.
-* Fontawesome 
+* [Fontawesome](https://fontawesome.com/) 
     * Fontawesome icons were used as visual aids in headings and for social media links. 
-* Google fonts
+* [Google fonts](https://fonts.google.com/)
     * Used throughout the website to import the fonts used.
-* [Adobe Color] (https://color.adobe.com/create/color-wheel)
+* [Adobe Color](https://color.adobe.com/create/color-wheel)
     * Used to explore color palette
-* TinyJPG.com
+* [TinyJPG.com](https://tinyjpg.com/)
     * Used to compress images in order to reduce bandwidth.
-* Favicon
+* [Favicon](https://favicon.io/)
     * favicon.io was used to create site favicon.
+* [Techsini](https://techsini.com/)
+    * Used to create apple device mockup above in this readme.
 
 
 # Testing 
@@ -171,3 +169,9 @@ CSS code was run through the W3C CSS validator with no errors found.
 2. Go get in contact with the sites owner after booking if I have not saved their contact information.
     * Testing was performed to ensure all information and content is displayed correctly accross all device sizes.
 
+## Issues found during testing
+
+1. Image on about page seemed too small on smaller screen sizes.
+ * Media queary added to increase it's with on smaller screen sizes.
+2. Background image on index.html appears zoomed in too far on tablets and mobile. Only when ran on real devices.
+3. Background video on index.html does not play on real mobile devices. Only first frame is displayed. 
