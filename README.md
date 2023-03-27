@@ -134,7 +134,7 @@ The contact form will be tested to ensure required fields are completed and to e
 ![testing](assets/screenshots/testing-screenshot.png)
 ## Test Results
 
-Test results can be found here ADD LINK. 
+Test results can be found [here](assets/testing-sion-dawson-films.pdf) 
 This is an .xlsx file and will require excel or compatible program to view. 
 
 All pages were run through the W3C HTML Validator and showed no errors.
