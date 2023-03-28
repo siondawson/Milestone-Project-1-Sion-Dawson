@@ -73,6 +73,8 @@ CTA Navigation buttons will also be strategically placed on all pages to lead vi
 ## Thank-you page
 After visitors send an enquiry they will be directed to a 'thank-you' page where they will recieve confirmation that their message has been recieved. This page will only be accessed by sending an message. The page will feature a button inviting them to return to the home page to continue viewing the content. The purpose of this page is for users to know that their enquiry message has been recieved. 
 
+## Footer Social Links
+Sion Dawson films social media branded profiles have not yet been created. I therefore included links to my own instagram. The youtube channel is an old account which my example wedding films is uploaded as unlisted link. These accounts will likely be rebranded in preperation of publication of website. Current links provided for code institute project submission.
 # Design 
 
 ### Color Scheme
