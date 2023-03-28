@@ -131,6 +131,8 @@ In order to show how the projects design evolved from wireframe to implementatio
     * Used to create apple device mockup above in this readme.
 * [Pixabay](https://pixabay.com/)
     * Used to download [heart image that is used on the home page](https://pixabay.com/photos/heart-wedding-marriage-hands-529607/)
+* [Wave](https://wave.webaim.org/)
+    * Used to test accessibility. For Color contrast and screen readers.
 
 
 # Testing 
@@ -204,6 +206,7 @@ CSS code was run through the W3C CSS validator with no errors found.
     * All favicon files moved to their own folder within assets.
     * Filepath changed to relative.
     * Issue resolved.
+6. On running the website through [Wave](https://wave.webaim.org/) one remaining color contrast issue was detected. The heading over the background video on the home page. Moving background meant some white on white. As background is moving the heading is readable over enough of the video to ignore this warning. 
 
 # Deployment 
 This project was created using the code institute template.
