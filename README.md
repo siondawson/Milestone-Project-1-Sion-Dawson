@@ -1,6 +1,6 @@
 # Milestone Project 1 - Siôn Dawson Films
 ## Purpose 
-This webite was created for Code Institute's Milestone Project 1 assignment. It will also be published and used as online presence for my wedding film business. It was built using knowledge and techniques learsed so far on the Full Stack Developer course. A full list of technologies can be found in the technologies section of this document.
+This webite was created for Code Institute's Milestone Project 1 assignment. It will also be published and used as online presence for my wedding film business. It was built using knowledge and techniques learsed so far on Code Institute's Full Stack Developer course. A full list of technologies can be found in the technologies section of this document.
 
 The live website can be found [here](https://siondawson.github.io/Milestone-Project-1-Sion-Dawson/)
 
@@ -186,19 +186,19 @@ CSS code was run through the W3C CSS validator with no errors found.
 
 1. Image on about page seemed too small on smaller screen sizes.
  * Media queary added to increase it's with on smaller screen sizes.
-2. Background image on index.html appears zoomed in too far on tablets and mobile. Only when ran on real devices.
+2. Background image on index.html appears zoomed in too far on tablets and mobile. Only when ran on real devices. (see test case 19)
     * Issue caused by scrolling backgrounds not supported on iOS devices.
     * Media queary added to adjust background attachment from scroll to fixed for smaller devices.
     * Upon contacting tutor support, they suggested a work around that would sacrifice the fixed background on smaller screen for a page that would look good on all devices. 
     * Scrolling background therefore lost on smaller devices but still looks good.
     * Decision made that this solution although not perfect is better than content not appearing correctly on iOS devices.
-3. Background video on index.html does not play on real mobile devices. Only first frame is displayed. 
+3. Background video on index.html does not play on real mobile devices. Only first frame is displayed. (see text case 18)
     * First frame only displaying makes a good background image - so I have decided to leave this as is. 
-4. Contact form taller than background image and therefore scrolls. Gives an appearance of a sticky footer. Not effecting functionality or UX but could be improved.
+4. Contact form taller than background image and therefore scrolls. Gives an appearance of a sticky footer. Not effecting functionality or UX but could be improved. 
     * This issue was fixed with the flex box approach in [this documentation](https://css-tricks.com/couple-takes-sticky-footer/).
     * Following this I discovered the page was appearing as desired in dev tools, but not on my iphone.
     * Problem was that scrolling backgrounds are not supported on iOS devices.
-    * (See solution found above in testing issue 2 - same fix).
+    * (See solution found above in issues found in testing: issue 2 - same fix).
 5. Favicon not displaying on deployed site.
     * This was a filepath issue. 
     * All favicon files moved to their own folder within assets.
@@ -209,7 +209,7 @@ CSS code was run through the W3C CSS validator with no errors found.
 This project was created using the code institute template.
 ## Version Control
 
-This site was created using Visual Studio Code editor and pushed to 'MILESTONE-PROJECT-1-SION-DAWSON', a remote repository in github. 
+This site was created using Visual Studio Code editor and pushed to 'Milestone-Project-1-Sion-Dawson', a remote repository in github. 
 
 Throughout the project these commands were used to save work and push changes to github via the command line terminal.
 
@@ -219,6 +219,18 @@ Throughout the project these commands were used to save work and push changes to
     * This command commits changes to the local repository
 3. Type: git push
     * This command pushes all changes to the GitHub repository.
+
+## Clone the repository code to your machine
+
+Navigate to the [github repository](https://github.com/siondawson/Milestone-Project-1-Sion-Dawson)
+
+1. Click on the code drop down button.
+2. Click HTTPS
+3. Copy repository link
+4. Open your IDE (git must be installed)
+5. Type git clone (copied git url) into the terminal.
+
+The project will now have been cloned on your machine. 
 
 # Credits 
 
