@@ -116,6 +116,7 @@ p {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        background-attachment: scroll;
     
     display: flex;
     align-items: center;
@@ -129,11 +130,12 @@ p {
 @media (min-width: 1000px) {
     .intro-container {
         height: 80vh;
-        background: url("../images/heart-img-ipad.png") no-repeat center fixed; 
+        background: url("../images/heart-img.jpg") no-repeat center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
-            background-size: cover;
+            background-size: fixed;
+
         
         display: flex;
         align-items: center;
