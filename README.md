@@ -35,9 +35,19 @@ The Siôn Dawson Films website was built as an online presence for my new weddin
 
 # Structure
 
+## Bootstrap 
+### Structure
+Bootstrap version 5 was used to structure this website. The most notable code used form bootstraps compoents are the nav bar and footer. This was used as bootstraps nav bar componant will collapse into a hamburger style menu automatically for smaller screens. Without the need to code from scratch. 
+
+Bootstrap columns and rows have been used throughout to structure the content and make it responsive accross all screen sizes. 
+
+Bootstrap classes have been used to add padding and margins. Make containser stretch full width, center text and hide certain elements on smaller screens.  
+
+###
+
 ## Home Page
 ### Header Nav
-Each page will contain a navigation menu at the top of the page for simple and fast exploration of the site. This will collapse into a 'hamburger' style menu for medium and smaller screen sizes. 
+Each page will contain a navigation menu at the top of the page for simple and fast exploration of the site. This will collapse into a 'hamburger' style menu for medium and smaller screen sizes. This code is taken from bootstraps componant library and modified to suit the needs of this website. 
 
 This will allow user to easily navigate the site.
 ### Footer Nav
@@ -222,6 +232,15 @@ Throughout the project these commands were used to save work and push changes to
     * This command commits changes to the local repository
 3. Type: git push
     * This command pushes all changes to the GitHub repository.
+
+## Deployment to github pages
+
+1. Navigate to this projects [github repository](https://github.com/siondawson/Milestone-Project-1-Sion-Dawson)
+2. Click 'settings' tab.
+3. Scroll down to the git hub pages heading.
+4. Select 'master branch' as the source.
+5. Click the save button.
+6. Click on the link to go to the live deployed page.
 
 ## Clone the repository code to your machine
 
