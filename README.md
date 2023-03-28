@@ -176,9 +176,23 @@ CSS code was run through the W3C CSS validator with no errors found.
 1. Image on about page seemed too small on smaller screen sizes.
  * Media queary added to increase it's with on smaller screen sizes.
 2. Background image on index.html appears zoomed in too far on tablets and mobile. Only when ran on real devices.
+    * Issue caused by scrolling backgrounds not supported on iOS devices.
+    * Media queary added to adjust background attachment from scroll to fixed for smaller devices.
+    * Upon contacting tutor support, they suggested a work around that would sacrifice the fixed background on smaller screen for a page that would look good on all devices. 
+    * Scrolling background therefore lost on smaller devices but still looks good.
+    * Decision made that this solution although not perfect is better than content not appearing correctly on iOS devices.
 3. Background video on index.html does not play on real mobile devices. Only first frame is displayed. 
+    * First frame only displaying makes a good background image - so I have decided to leave this as is. 
 4. Contact form taller than background image and therefore scrolls. Gives an appearance of a sticky footer. Not effecting functionality or UX but could be improved.
+    * This issue was fixed with the flex box approach in [this documentation](https://css-tricks.com/couple-takes-sticky-footer/).
+    * Following this I discovered the page was appearing as desired in dev tools, but not on my iphone.
+    * Problem was that scrolling backgrounds are not supported on iOS devices.
+    * (See solution found above in testing issue 2 - same fix).
 5. Favicon not displaying on deployed site.
+    * This was a filepath issue. 
+    * All favicon files moved to their own folder within assets.
+    * Filepath changed to relative.
+    * Issue resolved.
 
 # Deployment 
 

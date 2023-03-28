@@ -127,7 +127,7 @@ p {
 
 }
 
-@media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. */
+@media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed" */
     .intro-container {
         height: 80vh;
         background: url("../images/heart-img.jpg") no-repeat center fixed; 
@@ -285,7 +285,7 @@ p {
 
 }
 
-@media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. */
+@media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
     .form-section {
         background: url("../images/wedding-bouton-2.jpg") no-repeat center fixed; 
             -webkit-background-size: cover;
