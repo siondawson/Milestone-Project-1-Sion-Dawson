@@ -8,6 +8,12 @@ html {
 
 body {
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+html body { 
+    height: 100%;
 }
 /* -----------------------------------------Fonts */
 
@@ -244,7 +250,7 @@ p {
 /* contact form background image and layout based on Love Running project design. I found bootstrap form to be limiting in design options. */
 
 .form-section {
-    height: 80vh;
+    /* height: 100vh; */
     background: url("../images/wedding-bouton-2.jpg") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -254,18 +260,18 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     position: relative;
+    flex: 1 0 auto;
 
 }
 
 .contact-form {
-    margin-top: 300px;
+    
     color: #fff;
     background-color: rgba(60,60,60,0.6);
     max-width: 440px;
-    position: absolute;
-    left: 10%;
+    position: relative;
     padding: 30px;
     
 }
@@ -273,13 +279,10 @@ p {
 @media screen and (max-width:428px) {   /* centers contact form div on small screens only (428px is iphone pro max screen width)*/
     
     .contact-form {
-        margin-top: 300px;
         color: #fff;
         background-color: rgba(60,60,60,0.6);
         max-width: 440px;
-        position: absolute;
-        left: 5%;
-        right: 5%;
+        position: relative;
         padding: 30px;
     }
 }
@@ -377,5 +380,9 @@ p {
 
 .justify-content-center {
     padding: 0;
+}
+
+#footer-contact {
+    flex-shrink: 0;
 }
 
