@@ -33,37 +33,37 @@ The Siôn Dawson Films website was built as an online presence for my new weddin
 1. To see if there is any new example videos uploaded.
 2. Go get in contact with the sites owner after booking if I have not saved their contact information.
 
-## Structure
+# Structure
 
-### Home Page
-#### Header Nav
+## Home Page
+### Header Nav
 Each page will contain a navigation menu at the top of the page for simple and fast exploration of the site. This will collapse into a 'hamburger' style menu for medium and smaller screen sizes. 
 
 This will allow user to easily navigate the site.
-#### Footer Nav
+### Footer Nav
 Each page will also contain a smaller nav bar in the footer for easy navigation after viewing the content on the page. To save space this will be hidden on mobile screens. 
 
 This will give users a secondary navigation menu so they dont need to scroll to the top to move to a different page. 
-#### Title and background image.
+### Title and background image.
 The home page will feature a title and sentence so that the user knows immediately the sites purpose. This section will have a background image to draw in the user.
-#### Three Reasons
+### Three Reasons
 After scrolling down the user will be given three reasons why I would make a good choice as their wedding videographer.
-#### Background video
+### Background video
 After the three reasons there will be a short video playing in the background. The video will have no sound as will be built into the site as a 'moving background'. 
 
 As the purpose of the site is to encourage potential clients to enquire about hiring me as their wedding videographer. This is an important feature and comes at the cost of a slower loading time for the website. This was deemed however no so slow that performance was hampered to the point that it effected UX. The video will have a heading element empashising the quality of the films. 
-#### Nav buttons 
+### Nav buttons 
 As the main purpose of the site is to advertise my services as a videographer additional navigation buttons will be placed strategically to lead visitors from the 'home' to 'about' to 'wedding films' and finally the 'contact' page. Additional navigation buttons will also be placed to prompt user to proceed to the contact page and send an enquiry as soon as possible.
-### About page
+## About page
 The about section will contain an image of me along with a short bio. Underneath this there will be three music videos of my own creation, highlighting my background in music whilst also assuring the user of my experience in film making. Each video will have a short explanation of it's content. 
-### Wedding films page
+## Wedding films page
 The wedding films page will contain more in depth information about my wedding films. The two main elements at the top of the page will be a iframe containing an example of one of my wedding films for visitors to view, along with a short paragraph. Underneath this there will be six headings with corresponding paragraph showing visitors what they will recieve by booking me as their videographer. Each heading will be supported by an appropriate fontawesome icon. After the six headings, users will see a button calling them to make an enquiry. This will lead them to the contact page.
-### Nav CTA buttons
+## Nav CTA buttons
 CTA Navigation buttons will also be strategically placed on all pages to lead visitors to immediately enquire. This gives users easy access to the contact page whilst they are viewing the content. 
-### Thank-you page
+## Thank-you page
 After visitors send an enquiry they will be directed to a 'thank-you' page where they will recieve confirmation that their message has been recieved. This page will only be accessed by sending an message. The page will feature a button inviting them to return to the home page to continue viewing the content. The purpose of this page is for users to know that their enquiry message has been recieved. 
 
-## Design 
+# Design 
 
 ### Color Scheme
 
@@ -206,17 +206,18 @@ CSS code was run through the W3C CSS validator with no errors found.
     * Issue resolved.
 
 # Deployment 
-
 This project was created using the code institute template.
+## Version Control
 
-To save future work on this project: 
+This site was created using Visual Studio Code editor and pushed to 'MILESTONE-PROJECT-1-SION-DAWSON', a remote repository in github. 
 
-1. Open the command line terminal.
-2. Type: git add .
+Throughout the project these commands were used to save work and push changes to github via the command line terminal.
+
+1. Type: git add .
     * This command add files to the staging area before committing.
-3. Type: git commit -m "your message explaining what updates were made"
+2. Type: git commit -m "your message explaining what updates were made"
     * This command commits changes to the local repository
-4. Type: git push
+3. Type: git push
     * This command pushes all changes to the GitHub repository.
 
 # Credits 
