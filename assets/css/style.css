@@ -126,6 +126,23 @@ p {
 
 }
 
+@media (min-width: 1000px) {
+    .intro-container {
+        height: 80vh;
+        background: url("../images/heart-img-ipad.png") no-repeat center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        position: relative;
+    }
+}
+
 
 .reason-img {
     border-radius: 50%;
@@ -259,16 +276,14 @@ p {
         background-size: cover;
         background-attachment: scroll;
     
-    /* display: flex; */
     align-items: center;
     justify-content: center;
-    /* overflow-x: hidden; */
     position: relative;
     flex: 1 0 auto;
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. */
     .form-section {
         background: url("../images/wedding-bouton-2.jpg") no-repeat center fixed; 
             -webkit-background-size: cover;
@@ -277,10 +292,8 @@ p {
             background-size: cover;
             background-attachment: fixed;
         
-        /* display: flex; */
         align-items: center;
         justify-content: center;
-        /* overflow-x: hidden; */
         position: relative;
         flex: 1 0 auto;
     
