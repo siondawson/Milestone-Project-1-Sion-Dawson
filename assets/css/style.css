@@ -126,6 +126,7 @@ p {
 
 }
 
+
 .reason-img {
     border-radius: 50%;
     display: inline-block;
@@ -256,14 +257,34 @@ p {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        background-attachment: scroll;
     
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     /* overflow-x: hidden; */
     position: relative;
     flex: 1 0 auto;
 
+}
+
+@media (min-width: 1000px) {
+    .form-section {
+        background: url("../images/wedding-bouton-2.jpg") no-repeat center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-attachment: fixed;
+        
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        /* overflow-x: hidden; */
+        position: relative;
+        flex: 1 0 auto;
+    
+    }
 }
 
 .contact-form {
@@ -273,10 +294,11 @@ p {
     max-width: 440px;
     position: relative;
     padding: 30px;
+    left: 10%
     
 }
 
-@media screen and (max-width:428px) {   /* centers contact form div on small screens only (428px is iphone pro max screen width)*/
+@media screen and (max-width:510px) {   /* centers contact form div on small screens only (428px is iphone pro max screen width)*/
     
     .contact-form {
         color: #fff;
@@ -284,6 +306,7 @@ p {
         max-width: 440px;
         position: relative;
         padding: 30px;
+        left: 0%;
     }
 }
 
